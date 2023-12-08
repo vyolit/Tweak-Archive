@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo ""
+echo "  _________  "
+echo " /_|_____|_\ "
+echo " '. \   / .' "
+echo "   '.\ /.'   "
+echo "     '.'     "
+echo ""
+echo "Thank You For Installing Crystal 1.4.1 🤗"
+echo ""

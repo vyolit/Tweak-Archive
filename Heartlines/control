@@ -1,0 +1,9 @@
+Package: love.litten.heartlines
+Name: Heartlines 🌺
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 14.0), love.litten.libkitten (>= 1.1.1), com.peterdev.libpddokdo, me.conorthedev.libappearancecell, com.mrgcgamer.libgcuniversal
+Version: 1.5.4
+Architecture: iphoneos-arm
+Description: I know there's trembling in your heartlines
+Maintainer: Litten
+Author: Litten
+Section: Tweaks

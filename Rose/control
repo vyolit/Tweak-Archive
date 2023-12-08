@@ -1,0 +1,9 @@
+Package: love.litten.rose
+Name: Rose 🌹
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0)
+Version: 1.0.9
+Architecture: iphoneos-arm
+Description: The most advanced and feature rich system wide haptic feedback tweak
+Maintainer: Litten
+Author: Litten
+Section: Tweaks

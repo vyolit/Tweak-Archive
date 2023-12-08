@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+	
+		<dict>
+			<key>cellClass</key>
+			<string>DuoTwitterCell</string>
+			<key>firstLabel</key>
+			<string>🌸 Litten</string>
+			<key>firstAccount</key>
+			<string>schneelittchen</string>
+			<key>secondLabel</key>
+			<string>taki</string>
+			<key>secondAccount</key>
+			<string>74k1_</string>
+			<key>height</key>
+			<real>57</real>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>What do you want to customize?</string>
+		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Lock Screen</string>
+ 			<key>detail</key>
+ 			<string>VIOLockScreenSubPreferencesListController</string>
+ 			<key>VIOSub</key>
+ 			<string>sub/Lockscreen</string>
+ 		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Home Screen</string>
+ 			<key>detail</key>
+ 			<string>VIOHomeScreenSubPreferencesListController</string>
+ 			<key>VIOSub</key>
+ 			<string>sub/Homescreen</string>
+ 		</dict>
+		 <dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Control Center</string>
+ 			<key>detail</key>
+ 			<string>VIOControlCenterSubPreferencesListController</string>
+ 			<key>VIOSub</key>
+ 			<string>sub/ControlCenter</string>
+ 		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Music</string>
+ 			<key>detail</key>
+ 			<string>VIOMusicSubPreferencesListController</string>
+ 			<key>VIOSub</key>
+ 			<string>sub/Music</string>
+ 		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Spotify (Experimental)</string>
+ 			<key>detail</key>
+ 			<string>VIOSpotifySubPreferencesListController</string>
+ 			<key>VIOSub</key>
+ 			<string>sub/Spotify</string>
+ 		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Other Options</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Reset Preferences</string>
+			<key>action</key>
+			<string>resetPrompt</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Credits</string>
+ 			<key>detail</key>
+ 			<string>VIOCreditsSubPreferencesListController</string>
+ 			<key>VIOSub</key>
+ 			<string>sub/Credits</string>
+ 		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>You might like:</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Dress</string>
+			<key>subtitle</key>
+			<string>Dress up your lock screen</string>
+			<key>icon</key>
+			<string>featured/Dress.png</string>
+			<key>url</key>
+			<string>https://repo.litten.love/depictions/Dress/</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Avrora</string>
+			<key>subtitle</key>
+			<string>Make some of your app labels useful</string>
+			<key>icon</key>
+			<string>featured/Avrora.png</string>
+			<key>url</key>
+			<string>https://repo.litten.love/depictions/Avrora/</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Violet by Litten, icon and banner by taki</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Discord</string>
+			<key>subtitle</key>
+			<string>Chat with us 👾</string>
+			<key>url</key>
+			<string>https://discord.gg/tKUPZrS7ve</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Source code</string>
+			<key>subtitle</key>
+			<string>GitHub 🎀</string>
+			<key>url</key>
+			<string>https://github.com/schneelittchen/Violet</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Donate to Litten</string>
+			<key>subtitle</key>
+			<string>Appreciated 💝</string>
+			<key>url</key>
+			<string>https://paypal.me/Litteeen</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<key>PSGroupCell</key>
+			<key>footerText</key>
+			<string>princess of daydreaming</string>
+			<key>isStaticText</key>
+			<true/>
+			<key>footerAlignment</key>
+			<real>1</real>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Violet</string>
+</dict>
+</plist>

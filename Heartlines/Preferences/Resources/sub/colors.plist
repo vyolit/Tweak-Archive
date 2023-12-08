@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+        <dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>FaceID Lock</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>3</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>label</key>
+			<string>Color</string>
+			<key>key</key>
+			<string>faceIDLockColor</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Wallpaper Based 1</string>
+				<string>Wallpaper Based 2</string>
+				<string>Wallpaper Based 3</string>
+				<string>Custom</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>GcColorPickerCell</string>
+			<key>label</key>
+			<string>Custom color:</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>key</key>
+			<string>customFaceIDLockColor</string>
+			<key>supportsAlpha</key>
+			<true/>
+			<key>fallback</key>
+			<string>FFFFFF</string>
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Up Next</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>3</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>label</key>
+			<string>Color</string>
+			<key>key</key>
+			<string>upNextColor</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Wallpaper Based 1</string>
+				<string>Wallpaper Based 2</string>
+				<string>Wallpaper Based 3</string>
+				<string>Custom</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>GcColorPickerCell</string>
+			<key>label</key>
+			<string>Custom color:</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>key</key>
+			<string>customUpNextColor</string>
+			<key>supportsAlpha</key>
+			<true/>
+			<key>fallback</key>
+			<string>FFFFFF</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Up Next Event</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>label</key>
+			<string>Color</string>
+			<key>key</key>
+			<string>upNextEventColor</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Wallpaper Based 1</string>
+				<string>Wallpaper Based 2</string>
+				<string>Wallpaper Based 3</string>
+				<string>Custom</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>GcColorPickerCell</string>
+			<key>label</key>
+			<string>Custom color:</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>key</key>
+			<string>customUpNextEventColor</string>
+			<key>supportsAlpha</key>
+			<true/>
+			<key>fallback</key>
+			<string>FFFFFF</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Time</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>3</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>label</key>
+			<string>Color</string>
+			<key>key</key>
+			<string>timeColor</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Wallpaper Based 1</string>
+				<string>Wallpaper Based 2</string>
+				<string>Wallpaper Based 3</string>
+				<string>Custom</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>GcColorPickerCell</string>
+			<key>label</key>
+			<string>Custom color:</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>key</key>
+			<string>customTimeColor</string>
+			<key>supportsAlpha</key>
+			<true/>
+			<key>fallback</key>
+			<string>FFFFFF</string>
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Date</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>3</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>label</key>
+			<string>Color</string>
+			<key>key</key>
+			<string>dateColor</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Wallpaper Based 1</string>
+				<string>Wallpaper Based 2</string>
+				<string>Wallpaper Based 3</string>
+				<string>Custom</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>GcColorPickerCell</string>
+			<key>label</key>
+			<string>Custom color:</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>key</key>
+			<string>customDateColor</string>
+			<key>supportsAlpha</key>
+			<true/>
+			<key>fallback</key>
+			<string>FFFFFF</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Weather Report</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>label</key>
+			<string>Color</string>
+			<key>key</key>
+			<string>weatherReportColor</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Wallpaper Based 1</string>
+				<string>Wallpaper Based 2</string>
+				<string>Wallpaper Based 3</string>
+				<string>Custom</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>GcColorPickerCell</string>
+			<key>label</key>
+			<string>Custom color:</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>key</key>
+			<string>customWeatherReportColor</string>
+			<key>supportsAlpha</key>
+			<true/>
+			<key>fallback</key>
+			<string>FFFFFF</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Weather Condition</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>label</key>
+			<string>Color</string>
+			<key>key</key>
+			<string>weatherConditionColor</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Wallpaper Based 1</string>
+				<string>Wallpaper Based 2</string>
+				<string>Wallpaper Based 3</string>
+				<string>Custom</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>GcColorPickerCell</string>
+			<key>label</key>
+			<string>Custom color:</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>key</key>
+			<string>customWeatherConditionColor</string>
+			<key>supportsAlpha</key>
+			<true/>
+			<key>fallback</key>
+			<string>FFFFFF</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Artwork Based Colors</string>
+		</dict>
+        <dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>key</key>
+			<string>artworkBasedColors</string>
+			<key>label</key>
+			<string>Use Artwork Based Colors</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>label</key>
+			<string>FaceID Lock</string>
+			<key>key</key>
+			<string>faceIDLockArtworkColor</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Artwork Based 1</string>
+				<string>Artwork Based 2</string>
+				<string>Artwork Based 3</string>
+				<string>None</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>label</key>
+			<string>Up Next</string>
+			<key>key</key>
+			<string>upNextArtworkColor</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Artwork Based 1</string>
+				<string>Artwork Based 2</string>
+				<string>Artwork Based 3</string>
+				<string>None</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>2</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>label</key>
+			<string>Up Next Event</string>
+			<key>key</key>
+			<string>upNextEventArtworkColor</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Artwork Based 1</string>
+				<string>Artwork Based 2</string>
+				<string>Artwork Based 3</string>
+				<string>None</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>label</key>
+			<string>Time</string>
+			<key>key</key>
+			<string>timeArtworkColor</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Artwork Based 1</string>
+				<string>Artwork Based 2</string>
+				<string>Artwork Based 3</string>
+				<string>None</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>label</key>
+			<string>Date</string>
+			<key>key</key>
+			<string>dateArtworkColor</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Artwork Based 1</string>
+				<string>Artwork Based 2</string>
+				<string>Artwork Based 3</string>
+				<string>None</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>2</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>label</key>
+			<string>Weather Report</string>
+			<key>key</key>
+			<string>weatherReportArtworkColor</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Artwork Based 1</string>
+				<string>Artwork Based 2</string>
+				<string>Artwork Based 3</string>
+				<string>None</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>2</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>label</key>
+			<string>Weather Condition</string>
+			<key>key</key>
+			<string>weatherConditionArtworkColor</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Artwork Based 1</string>
+				<string>Artwork Based 2</string>
+				<string>Artwork Based 3</string>
+				<string>None</string>
+			</array>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Heartlines</string>
+</dict>
+</plist>

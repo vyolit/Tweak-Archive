@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Haptic Feedback When..</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.rosepreferences</string>
+			<key>key</key>
+			<string>unlock</string>
+			<key>label</key>
+			<string>Unlocked/NC</string>
+			<key>PostNotification</key>
+			<string>love.litten.rosepreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.rosepreferences</string>
+			<key>key</key>
+			<string>lock</string>
+			<key>label</key>
+			<string>Locked</string>
+			<key>PostNotification</key>
+			<string>love.litten.rosepreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.rosepreferences</string>
+			<key>key</key>
+			<string>authentication</string>
+			<key>label</key>
+			<string>Autheticated With Touch/FaceID</string>
+			<key>PostNotification</key>
+			<string>love.litten.rosepreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.rosepreferences</string>
+			<key>key</key>
+			<string>call</string>
+			<key>label</key>
+			<string>Call Connects/Disconnects</string>
+			<key>PostNotification</key>
+			<string>love.litten.rosepreferences/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Custom Strength Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>love.litten.rosepreferences</string>
+			<key>label</key>
+			<string>Custom Unlock Strength</string>
+			<key>key</key>
+			<string>customStrengthUnlock</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+				<integer>6</integer>
+				<integer>7</integer>
+				<integer>8</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>Light: Haptic Engine</string>
+				<string>Medium: Haptic Engine</string>
+				<string>Heavy: Haptic Engine</string>
+				<string>Light: Taptic Engine</string>
+				<string>Medium: Taptic Engine</string>
+				<string>Strong: Taptic Engine</string>
+				<string>Soft: Taptic Engine</string>
+				<string>Rigid: Taptic Engine</string>
+			</array>
+			<key>PostNotification</key>
+			<string>love.litten.rosepreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>love.litten.rosepreferences</string>
+			<key>label</key>
+			<string>Custom Lock Strength</string>
+			<key>key</key>
+			<string>customStrengthLock</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+				<integer>6</integer>
+				<integer>7</integer>
+				<integer>8</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>Light: Haptic Engine</string>
+				<string>Medium: Haptic Engine</string>
+				<string>Heavy: Haptic Engine</string>
+				<string>Light: Taptic Engine</string>
+				<string>Medium: Taptic Engine</string>
+				<string>Strong: Taptic Engine</string>
+				<string>Soft: Taptic Engine</string>
+				<string>Rigid: Taptic Engine</string>
+			</array>
+			<key>PostNotification</key>
+			<string>love.litten.rosepreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>love.litten.rosepreferences</string>
+			<key>label</key>
+			<string>Custom Authetication Strength</string>
+			<key>key</key>
+			<string>customStrengthAuthentication</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+				<integer>6</integer>
+				<integer>7</integer>
+				<integer>8</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>Light: Haptic Engine</string>
+				<string>Medium: Haptic Engine</string>
+				<string>Heavy: Haptic Engine</string>
+				<string>Light: Taptic Engine</string>
+				<string>Medium: Taptic Engine</string>
+				<string>Strong: Taptic Engine</string>
+				<string>Soft: Taptic Engine</string>
+				<string>Rigid: Taptic Engine</string>
+			</array>
+			<key>PostNotification</key>
+			<string>love.litten.rosepreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>love.litten.rosepreferences</string>
+			<key>label</key>
+			<string>Custom Call Strength</string>
+			<key>key</key>
+			<string>customStrengthCall</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+				<integer>6</integer>
+				<integer>7</integer>
+				<integer>8</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>Light: Haptic Engine</string>
+				<string>Medium: Haptic Engine</string>
+				<string>Heavy: Haptic Engine</string>
+				<string>Light: Taptic Engine</string>
+				<string>Medium: Taptic Engine</string>
+				<string>Strong: Taptic Engine</string>
+				<string>Soft: Taptic Engine</string>
+				<string>Rigid: Taptic Engine</string>
+			</array>
+			<key>PostNotification</key>
+			<string>love.litten.rosepreferences/ReloadPrefs</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Rose</string>
+</dict>
+</plist>

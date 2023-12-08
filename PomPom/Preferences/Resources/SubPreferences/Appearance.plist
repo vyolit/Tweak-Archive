@@ -1,0 +1,115 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1//EN" "http://www.apple.com/DTDs/PropertyList-1.dtd">
+<plist version="1">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>FaceID</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>key</key>
+			<string>hideFaceIDLock</string>
+			<key>label</key>
+			<string>Hide the FaceID Lock</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Quick Actions</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>key</key>
+			<string>hideFlashlight</string>
+			<key>label</key>
+			<string>Hide the Flashlight</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>key</key>
+			<string>hideCamera</string>
+			<key>label</key>
+			<string>Hide the Camera</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>key</key>
+			<string>hideQuickActionsBackground</string>
+			<key>label</key>
+			<string>Hide the Button Background</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Indicators</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>key</key>
+			<string>hideUnlockText</string>
+			<key>label</key>
+			<string>Hide the Unlock Text</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>key</key>
+			<string>hidePageDots</string>
+			<key>label</key>
+			<string>Hide the Page Dots</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>key</key>
+			<string>hideHomebar</string>
+			<key>label</key>
+			<string>Hide the Homebar</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>PomPom</string>
+</dict>
+</plist>

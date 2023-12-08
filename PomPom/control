@@ -1,0 +1,11 @@
+Package: auraoflove.pompom
+Name: PomPom 🍬
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 14.2), applist, com.peterdev.libpddokdo
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: A tidy lock screen redesign
+Maintainer: Traurige
+Author: Traurige
+Section: Tweaks
+Icon: https://auraof.love/cydia/depictions/PomPom/assets/images/Icon.png
+SileoDepiction: https://auraof.love/cydia/depictions/PomPom/depiction.json

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+	
+		<dict>
+			<key>cellClass</key>
+			<string>DuoTwitterCell</string>
+			<key>firstLabel</key>
+			<string>🌸 Litten</string>
+			<key>firstAccount</key>
+			<string>schneelittchen</string>
+			<key>secondLabel</key>
+			<string>Esquilli</string>
+			<key>secondAccount</key>
+			<string>Esquilli</string>
+			<key>height</key>
+			<real>57</real>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Settings</string>
+		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Customization</string>
+ 			<key>detail</key>
+ 			<string>LSACustomizationSubPreferencesListController</string>
+ 			<key>LSASub</key>
+ 			<string>sub/customization</string>
+ 		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Animations</string>
+ 			<key>detail</key>
+ 			<string>LSAAnimationsSubPreferencesListController</string>
+ 			<key>LSASub</key>
+ 			<string>sub/animations</string>
+ 		</dict>
+		 <dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Haptic Feedback</string>
+ 			<key>detail</key>
+ 			<string>LSAHapticFeedbackSubPreferencesListController</string>
+ 			<key>LSASub</key>
+ 			<string>sub/hapticFeedback</string>
+ 		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Other options</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Reset preferences</string>
+			<key>action</key>
+			<string>resetPrompt</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Test notifications</string>
+			<key>action</key>
+			<string>testNotifications:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Test banner</string>
+			<key>action</key>
+			<string>testBanner:</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Contributions</string>
+		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Contributors</string>
+ 			<key>detail</key>
+ 			<string>LSAContributorsSubPreferencesListController</string>
+ 			<key>LSASub</key>
+ 			<string>sub/contributors</string>
+ 		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>You might like:</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Lobelias</string>
+			<key>subtitle</key>
+			<string>Design your own lockscreen player</string>
+			<key>icon</key>
+			<string>featured/Lobelias.png</string>
+			<key>url</key>
+			<string>https://repo.litten.love/depictions/Lobelias/</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Violet</string>
+			<key>subtitle</key>
+			<string>Make your wallpaper your song's artwork</string>
+			<key>icon</key>
+			<string>featured/Violet.png</string>
+			<key>url</key>
+			<string>https://repo.litten.love/depictions/Violet/</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Lisa By Litten, Original Lisa By Esquilli</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Discord</string>
+			<key>subtitle</key>
+			<string>Chat with us 👾</string>
+			<key>url</key>
+			<string>https://discord.gg/tKUPZrS7ve</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Source code</string>
+			<key>subtitle</key>
+			<string>GitHub 💅🏻</string>
+			<key>url</key>
+			<string>https://github.com/schneelittchen/Lisa</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Donate to Litten</string>
+			<key>subtitle</key>
+			<string>Appreciated 💝</string>
+			<key>url</key>
+			<string>https://paypal.me/Litteeen</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<key>PSGroupCell</key>
+			<key>footerText</key>
+			<string>princess of daydreaming</string>
+			<key>isStaticText</key>
+			<true/>
+			<key>footerAlignment</key>
+			<real>1</real>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Lisa</string>
+</dict>
+</plist>

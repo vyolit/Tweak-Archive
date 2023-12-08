@@ -1,0 +1,117 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1//EN" "http://www.apple.com/DTDs/PropertyList-1.dtd">
+<plist version="1">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Media Player</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>key</key>
+			<string>replaceMediaPlayer</string>
+			<key>label</key>
+			<string>Replace the Media Player</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Buttons</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>key</key>
+			<string>displayRewindButton</string>
+			<key>label</key>
+			<string>Rewind Button</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>key</key>
+			<string>displayPlayButton</string>
+			<key>label</key>
+			<string>Play Button</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>key</key>
+			<string>displaySkipButton</string>
+			<key>label</key>
+			<string>Skip Button</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>key</key>
+			<string>displayTimeSlider</string>
+			<key>label</key>
+			<string>Time Slider</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Appearance</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>2</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>label</key>
+			<string>Style Override:</string>
+			<key>key</key>
+			<string>timeSliderOverrideStyle</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Adaptive</string>
+				<string>Light</string>
+				<string>Dark</string>
+			</array>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>PomPom</string>
+</dict>
+</plist>

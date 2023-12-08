@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cellClass</key>
+			<string>DuoTwitterCell</string>
+			<key>firstLabel</key>
+			<string>🌸 Litten</string>
+			<key>firstAccount</key>
+			<string>schneelittchen</string>
+			<key>secondLabel</key>
+			<string>taki</string>
+			<key>secondAccount</key>
+			<string>74k1_</string>
+			<key>height</key>
+			<real>57</real>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Settings</string>
+		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Behavior</string>
+ 			<key>detail</key>
+ 			<string>DVUBehaviorSubPreferencesListController</string>
+ 			<key>DVUSub</key>
+ 			<string>sub/behavior</string>
+ 		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Customization</string>
+ 			<key>detail</key>
+ 			<string>DVUCustomizationSubPreferencesListController</string>
+ 			<key>DVUSub</key>
+ 			<string>sub/customization</string>
+ 		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Other Options</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Reset Preferences</string>
+			<key>action</key>
+			<string>resetPrompt</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Contributions</string>
+		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Contributors</string>
+ 			<key>detail</key>
+ 			<string>DVUContributorsSubPreferencesListController</string>
+ 			<key>DVUSub</key>
+ 			<string>sub/credits</string>
+ 		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>You might like:</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Heartlines</string>
+			<key>subtitle</key>
+			<string>Give your lock screen clock a new look</string>
+			<key>icon</key>
+			<string>featured/Heartlines.png</string>
+			<key>url</key>
+			<string>https://repo.litten.love/depictions/Heartlines/</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Lune</string>
+			<key>subtitle</key>
+			<string>Let a moon icon appear when dnd is on</string>
+			<key>icon</key>
+			<string>featured/Lune.png</string>
+			<key>url</key>
+			<string>https://repo.litten.love/depictions/Lune/</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Déjà Vu by Litten, icon and banner by taki</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Discord</string>
+			<key>subtitle</key>
+			<string>Chat with us 👾</string>
+			<key>url</key>
+			<string>https://discord.gg/tKUPZrS7ve</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Source code</string>
+			<key>subtitle</key>
+			<string>GitHub 🕰</string>
+			<key>url</key>
+			<string>https://github.com/schneelittchen/Deja-Vu</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Donate to Litten</string>
+			<key>subtitle</key>
+			<string>Appreciated 💝</string>
+			<key>url</key>
+			<string>https://paypal.me/Litteeen</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<key>PSGroupCell</key>
+			<key>footerText</key>
+			<string>loving with the sky</string>
+			<key>isStaticText</key>
+			<true/>
+			<key>footerAlignment</key>
+			<real>1</real>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Déjà Vu</string>
+</dict>
+</plist>

@@ -1,0 +1,93 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1//EN" "http://www.apple.com/DTDs/PropertyList-1.dtd">
+<plist version="1">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Appearance</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>key</key>
+			<string>hideNotificationsHeader</string>
+			<key>label</key>
+			<string>Hide the Stack Header</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>key</key>
+			<string>hideNoOlderNotifications</string>
+			<key>label</key>
+			<string>Hide "No Older Notifications"</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Offset</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>label</key>
+			<string>Additional Offset</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>0</real>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>key</key>
+			<string>additionalNotificationsOffset</string>
+			<key>min</key>
+			<real>-50</real>
+			<key>max</key>
+			<real>50</real>
+			<key>showValue</key>
+			<true/>
+			<key>isSegmented</key>
+			<true/>
+			<key>segmentCount</key>
+			<real>20</real>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Behavior</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>key</key>
+			<string>alwaysRevealNotifications</string>
+			<key>label</key>
+			<string>Always Reveal Notifications</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>PomPom</string>
+</dict>
+</plist>

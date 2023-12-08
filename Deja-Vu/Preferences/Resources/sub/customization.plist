@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+	<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>label</key>
+		<string>Visibility</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<true/>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>hideStatusBar</string>
+		<key>label</key>
+		<string>Hide Status Bar</string>
+	</dict>
+    <dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<true/>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>hideFaceIDLock</string>
+		<key>label</key>
+		<string>Hide FaceID Lock</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<false/>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>hideTimeAndDate</string>
+		<key>label</key>
+		<string>Hide Time and Date</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<false/>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>hideMediaPlayer</string>
+		<key>label</key>
+		<string>Hide Media Player</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<true/>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>hideQuickActions</string>
+		<key>label</key>
+		<string>Hide Quick Actions</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<true/>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>hideUnlockTextAndHomebar</string>
+		<key>label</key>
+		<string>Hide Unlock Text and Homebar</string>
+	</dict>
+
+	</array>
+	<key>title</key>
+	<string>Déjà Vu</string>
+</dict>
+</plist>

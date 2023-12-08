@@ -1,0 +1,153 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1//EN" "http://www.apple.com/DTDs/PropertyList-1.dtd">
+<plist version="1">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cellClass</key>
+			<string>ConnectivityCell</string>
+			<key>leftUserDisplayName</key>
+			<string>alexa</string>
+			<key>leftUserUsername</key>
+			<string>Traurige</string>
+			<key>rightUserDisplayName</key>
+			<string>taki</string>
+			<key>rightUserUsername</key>
+			<string>74k1_</string>
+			<key>height</key>
+			<real>58</real>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Settings</string>
+		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Appearance</string>
+ 			<key>detail</key>
+ 			<string>PomPomAppearanceSubPreferencesListController</string>
+ 			<key>PomPomSub</key>
+ 			<string>SubPreferences/Appearance</string>
+ 		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Media Player</string>
+ 			<key>detail</key>
+ 			<string>PomPomMediaPlayerSubPreferencesListController</string>
+ 			<key>PomPomSub</key>
+ 			<string>SubPreferences/MediaPlayer</string>
+ 		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Notifications</string>
+ 			<key>detail</key>
+ 			<string>PomPomNotificationsSubPreferencesListController</string>
+ 			<key>PomPomSub</key>
+ 			<string>SubPreferences/Notifications</string>
+ 		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Time and Date</string>
+ 			<key>detail</key>
+ 			<string>PomPomTimeDateSubPreferencesListController</string>
+ 			<key>PomPomSub</key>
+ 			<string>SubPreferences/TimeDate</string>
+ 		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Up Next</string>
+ 			<key>detail</key>
+ 			<string>PomPomUpNextSubPreferencesListController</string>
+ 			<key>PomPomSub</key>
+ 			<string>SubPreferences/UpNext</string>
+ 		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Other Options</string>
+			<key>footerText</key>
+			<string>All changes require a respring.</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Reset Preferences</string>
+			<key>action</key>
+			<string>resetPrompt</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Credits</string>
+ 			<key>detail</key>
+ 			<string>PomPomCreditsSubPreferencesListController</string>
+ 			<key>PomPomSub</key>
+ 			<string>SubPreferences/Credits</string>
+ 		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>An AuraOfLove Project</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Source Code</string>
+			<key>subtitle</key>
+			<string>It's on GitHub 🫖</string>
+			<key>url</key>
+			<string>https://github.com/Traurige/PomPom</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Bug/Feature</string>
+			<key>subtitle</key>
+			<string>Submit an issue 🐛</string>
+			<key>url</key>
+			<string>https://github.com/Traurige/PomPom/issues/new/choose</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>PomPom</string>
+</dict>
+</plist>

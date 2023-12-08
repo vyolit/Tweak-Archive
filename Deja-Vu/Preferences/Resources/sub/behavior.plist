@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+	<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>label</key>
+		<string>Activation</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<false/>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>onlyWhenCharging</string>
+		<key>label</key>
+		<string>Only when Charging</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<true/>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>disableWhileCharging</string>
+		<key>label</key>
+		<string>Disable while Charging</string>
+	</dict>
+
+	<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>label</key>
+		<string>Deactivation</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<true/>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>deactivateWithTap</string>
+		<key>label</key>
+		<string>With Tap</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<true/>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>deactivateWithRaiseToWake</string>
+		<key>label</key>
+		<string>With Raise to Wake</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<true/>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>deactivateAfterInactivity</string>
+		<key>label</key>
+		<string>After Inactivity</string>
+	</dict>
+	<dict>
+		<key>cellClass</key>
+		<string>HBStepperTableCell</string>
+		<key>default</key>
+		<real>15</real>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>inactivityAmount</string>
+		<key>label</key>
+		<string>Inactivity of %i Minutes</string>
+		<key>max</key>
+		<real>120</real>
+		<key>min</key>
+		<real>1</real>
+		<key>singularLabel</key>
+		<string>1 Minute of Inactivity</string>
+	</dict>
+
+	<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>label</key>
+		<string>Haptic Feedback</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<false/>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>enableHapticFeedback</string>
+		<key>label</key>
+		<string>Haptic Feedback</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSStaticTextCell</string>
+		<key>label</key>
+		<string>Strength</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSegmentCell</string>
+		<key>default</key>
+		<integer>0</integer>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>hapticFeedbackStrength</string>
+		<key>validValues</key>
+		<array>
+			<integer>0</integer>
+			<integer>1</integer>
+			<integer>2</integer>
+		</array>
+		<key>validTitles</key>
+		<array>
+			<string>Light</string>
+			<string>Medium</string>
+			<string>Strong</string>
+		</array>
+		<key>alignment</key>
+		<string>3</string>
+	</dict>
+
+	<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>label</key>
+		<string>Miscellaneous</string>
+		<key>footerText</key>
+		<string>Pixel shift only works for time and date</string>
+		<key>isStaticText</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<true/>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>disableBiometrics</string>
+		<key>label</key>
+		<string>Disable Biometrics</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<true/>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>pocketDetection</string>
+		<key>label</key>
+		<string>Pocket Detection</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<true/>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>pixelShift</string>
+		<key>label</key>
+		<string>Pixel Shift</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<false/>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>dimDisplay</string>
+		<key>label</key>
+		<string>Dim Display (Experimental)</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<true/>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>enableLowPowerMode</string>
+		<key>label</key>
+		<string>Enable Low Power Mode</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<false/>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>enableDoNotDisturb</string>
+		<key>label</key>
+		<string>Enable Do Not Disturb</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<true/>
+		<key>defaults</key>
+		<string>love.litten.dejavupreferences</string>
+		<key>key</key>
+		<string>disableControlCenter</string>
+		<key>label</key>
+		<string>Disable Control Center</string>
+	</dict>
+
+	</array>
+	<key>title</key>
+	<string>Déjà Vu</string>
+</dict>
+</plist>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+	
+		<dict>
+			<key>cellClass</key>
+			<string>DuoTwitterCell</string>
+			<key>firstLabel</key>
+			<string>🌸 Litten</string>
+			<key>firstAccount</key>
+			<string>schneelittchen</string>
+			<key>secondLabel</key>
+			<string>taki</string>
+			<key>secondAccount</key>
+			<string>74k1_</string>
+			<key>height</key>
+			<real>57</real>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Style and position</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSDefaultCell</string>
+			<key>cellClass</key>
+			<string>AppearanceSelectionTableCell</string>
+			<key>options</key>
+			<array>
+				<dict>
+					<key>text</key>
+					<string>Strawberry</string>
+					<key>image</key>
+					<string>strawberry</string>
+				</dict>
+				<dict>
+					<key>text</key>
+					<string>Cherry</string>
+					<key>image</key>
+					<string>cherry</string>
+				</dict>
+				<dict>
+					<key>text</key>
+					<string>Peach</string>
+					<key>image</key>
+					<string>peach</string>
+				</dict>
+			</array>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>key</key>
+			<string>style</string>
+			<key>height</key>
+			<integer>210</integer>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>key</key>
+			<string>position</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Left</string>
+				<string>Center</string>
+				<string>Right</string>
+			</array>
+			<key>alignment</key>
+			<string>3</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Customization</string>
+		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>FaceID Lock</string>
+ 			<key>detail</key>
+ 			<string>HLSFaceIDLockSubPreferencesListController</string>
+ 			<key>HLSSub</key>
+ 			<string>sub/faceIDLock</string>
+ 		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Text</string>
+ 			<key>detail</key>
+ 			<string>HLSTextSubPreferencesListController</string>
+ 			<key>HLSSub</key>
+ 			<string>sub/text</string>
+ 		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Colors</string>
+ 			<key>detail</key>
+ 			<string>HLSColorsSubPreferencesListController</string>
+ 			<key>HLSSub</key>
+ 			<string>sub/colors</string>
+ 		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Weather</string>
+ 			<key>detail</key>
+ 			<string>HLSWeatherSubPreferencesListController</string>
+ 			<key>HLSSub</key>
+ 			<string>sub/weather</string>
+ 		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Up Next</string>
+ 			<key>detail</key>
+ 			<string>HLSUpNextSubPreferencesListController</string>
+ 			<key>HLSSub</key>
+ 			<string>sub/upNext</string>
+ 		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Miscellaneous</string>
+ 			<key>detail</key>
+ 			<string>HLSMiscellaneousSubPreferencesListController</string>
+ 			<key>HLSSub</key>
+ 			<string>sub/miscellaneous</string>
+ 		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Other options</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Reset preferences</string>
+			<key>action</key>
+			<string>resetPrompt</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Contributions</string>
+		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Contributors</string>
+ 			<key>detail</key>
+ 			<string>HLSContributorsSubPreferencesListController</string>
+ 			<key>HLSSub</key>
+ 			<string>sub/contributors</string>
+ 		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>You might like:</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Lune</string>
+			<key>subtitle</key>
+			<string>Let a moon icon appear when dnd is on</string>
+			<key>icon</key>
+			<string>featured/Lune.png</string>
+			<key>url</key>
+			<string>https://repo.litten.love/depictions/Lune/</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Violet</string>
+			<key>subtitle</key>
+			<string>Make your wallpaper your song's artwork</string>
+			<key>icon</key>
+			<string>featured/Violet.png</string>
+			<key>url</key>
+			<string>https://repo.litten.love/depictions/Violet/</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Heartlines by Litten, icon and banner by taki</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Discord</string>
+			<key>subtitle</key>
+			<string>Chat with us 👾</string>
+			<key>url</key>
+			<string>https://discord.gg/tKUPZrS7ve</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Source code</string>
+			<key>subtitle</key>
+			<string>GitHub 🌺</string>
+			<key>url</key>
+			<string>https://github.com/schneelittchen/Heartlines</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Donate to Litten</string>
+			<key>subtitle</key>
+			<string>Appreciated 💝</string>
+			<key>url</key>
+			<string>https://paypal.me/Litteeen</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<key>PSGroupCell</key>
+			<key>footerText</key>
+			<string>loving with the sky</string>
+			<key>isStaticText</key>
+			<true/>
+			<key>footerAlignment</key>
+			<real>1</real>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Heartlines</string>
+</dict>
+</plist>

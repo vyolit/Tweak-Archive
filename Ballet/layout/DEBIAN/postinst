@@ -1,0 +1,7 @@
+#!/bin/sh
+
+mkdir -p /Library/Ballet/
+
+echo ""
+echo "Thank You For Installing Ballet 1.0.1 🤗"
+echo ""

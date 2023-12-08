@@ -1,0 +1,73 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1//EN" "http://www.apple.com/DTDs/PropertyList-1.dtd">
+<plist version="1">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Up Next</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>key</key>
+			<string>displayUpNext</string>
+			<key>label</key>
+			<string>Display Up Next</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Range</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBStepperTableCell</string>
+			<key>default</key>
+			<real>7</real>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>key</key>
+			<string>eventsRange</string>
+			<key>label</key>
+			<string>Events within %i Days</string>
+			<key>max</key>
+			<real>360</real>
+			<key>min</key>
+			<real>1</real>
+			<key>singularLabel</key>
+			<string>Events within 1 Day</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Formatting</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>key</key>
+			<string>useAmericanDateFormat</string>
+			<key>label</key>
+			<string>Use the American Date Format</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>PomPom</string>
+</dict>
+</plist>

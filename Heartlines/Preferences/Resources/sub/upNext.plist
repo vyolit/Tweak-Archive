@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Up Next</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>key</key>
+			<string>showUpNext</string>
+			<key>label</key>
+			<string>Show Up Next</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>key</key>
+			<string>showCalendarEvents</string>
+			<key>label</key>
+			<string>Show First Calendar Event</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>key</key>
+			<string>showReminders</string>
+			<key>label</key>
+			<string>Show First Reminder</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>key</key>
+			<string>showNextAlarm</string>
+			<key>label</key>
+			<string>Show Next Alarm</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>key</key>
+			<string>prioritizeReminders</string>
+			<key>label</key>
+			<string>Prioritize Reminders</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>key</key>
+			<string>prioritizeAlarms</string>
+			<key>label</key>
+			<string>Prioritize Alarms</string>
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Range</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBStepperTableCell</string>
+			<key>default</key>
+			<real>3</real>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>key</key>
+			<string>dayRange</string>
+			<key>label</key>
+			<string>%i Days From Now</string>
+			<key>max</key>
+			<real>360</real>
+			<key>min</key>
+			<real>1</real>
+			<key>singularLabel</key>
+			<string>1 Day From Now</string>
+		</dict>
+
+        <dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Privacy</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>key</key>
+			<string>hideUntilAuthenticated</string>
+			<key>label</key>
+			<string>Hide Until Authenticated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.heartlinespreferences</string>
+			<key>key</key>
+			<string>invisibleInkEffect</string>
+			<key>label</key>
+			<string>Add Invisible Ink Effect</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Heartlines</string>
+</dict>
+</plist>

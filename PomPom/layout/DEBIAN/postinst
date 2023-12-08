@@ -1,0 +1,14 @@
+#!/bin/sh
+
+echo ""
+echo "       .--.        "
+echo "     .'_\/_'.      "
+echo "     '. /\ .'      "
+echo "       '||'        "
+echo "        || /\      "
+echo "     /\ ||//\)     "
+echo "       \||/        "
+echo " ______\||/_______ "
+echo ""
+echo "Thank You for installing PomPom 1.0.2 🤗"
+echo ""

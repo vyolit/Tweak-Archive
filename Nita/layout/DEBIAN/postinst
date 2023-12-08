@@ -1,0 +1,18 @@
+#!/bin/sh
+
+echo ""
+echo "                        "
+echo "            .           "
+echo "            |           "
+echo "      '.  _..._  .'     "
+echo "        .'     '.       "
+echo "   '-. /         \ .-'  "
+echo "  _ _  ;         ;  _ _ "
+echo "       \         /      "
+echo "    .-' '._   _.' '-.   "
+echo "       .    |    .      "
+echo "      '     '      '     "
+echo "            '           "
+echo ""
+echo "Thank You For Installing Nita 1.6 🤗"
+echo ""

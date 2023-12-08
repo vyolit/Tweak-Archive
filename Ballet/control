@@ -1,0 +1,9 @@
+Package: love.litten.ballet
+Name: Ballet
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Version: 1.0.1
+Architecture: appletvos-arm64
+Description: Wallpapers for your Apple TV
+Maintainer: Litten
+Author: Litten
+Section: Tweaks

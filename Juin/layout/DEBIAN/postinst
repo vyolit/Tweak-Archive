@@ -1,0 +1,15 @@
+#!/bin/sh
+
+echo ""
+echo "          |                        "
+echo "        \ _ /                      "
+echo "      -= (_) =-                    "
+echo "        /   \         _\/_         "
+echo "          |           //o\  _\/_   "
+echo "   _____ _ __ __ ____ _ | __/o\\ _ "
+echo " =-=-_-__=_-= _=_=-=_,-'|''''-|-,_ "
+echo "  =- _=-=- -_=-=_,-'          |    "
+echo "    =- =- -=.--'                   "
+echo ""
+echo "Thank You For Installing Juin 1.1.3 🤗"
+echo ""

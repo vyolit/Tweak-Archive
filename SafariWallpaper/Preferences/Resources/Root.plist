@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cellClass</key>
+			<string>DuoTwitterCell</string>
+			<key>firstLabel</key>
+			<string>🌸 Litten</string>
+			<key>firstAccount</key>
+			<string>schneelittchen</string>
+			<key>secondLabel</key>
+			<string>taki</string>
+			<key>secondAccount</key>
+			<string>74k1_</string>
+			<key>height</key>
+			<real>57</real>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Wallpaper</string>
+			<key>footerText</key>
+			<string>You need at least one bookmark for this to work, you can hide them again with the settings below</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>label</key>
+			<string>Light mode</string>
+		</dict>
+        <dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>GcImagePickerCell</string>
+			<key>label</key>
+			<string>Choose light wallpaper</string>
+			<key>defaults</key>
+			<string>love.litten.safariwallpaperpreferences</string>
+			<key>key</key>
+			<string>wallpaperImageLight</string>
+			<key>usesPhotos</key>
+			<true/>
+			<key>usesVideos</key>
+			<false/>
+			<key>videoQuality</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>label</key>
+			<string>Dark mode</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>GcImagePickerCell</string>
+			<key>label</key>
+			<string>Choose dark wallpaper</string>
+			<key>defaults</key>
+			<string>love.litten.safariwallpaperpreferences</string>
+			<key>key</key>
+			<string>wallpaperImageDark</string>
+			<key>usesPhotos</key>
+			<true/>
+			<key>usesVideos</key>
+			<false/>
+			<key>videoQuality</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>label</key>
+			<string>Alpha</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>1.0</real>
+			<key>defaults</key>
+			<string>love.litten.safariwallpaperpreferences</string>
+			<key>key</key>
+			<string>wallpaperAlpha</string>
+			<key>min</key>
+			<real>0.1</real>
+			<key>max</key>
+			<real>1.0</real>
+			<key>showValue</key>
+			<true/>
+			<key>isSegmented</key>
+			<true/>
+			<key>segmentCount</key>
+			<real>9</real>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>love.litten.safariwallpaperpreferences</string>
+			<key>label</key>
+			<string>Blur:</string>
+			<key>key</key>
+			<string>blurMode</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>Light</string>
+				<string>Dark</string>
+				<string>Adaptive</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>label</key>
+			<string>Blur amount</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>1</real>
+			<key>defaults</key>
+			<string>love.litten.safariwallpaperpreferences</string>
+			<key>key</key>
+			<string>blurAmount</string>
+			<key>min</key>
+			<real>0.1</real>
+			<key>max</key>
+			<real>1</real>
+			<key>showValue</key>
+			<true/>
+			<key>isSegmented</key>
+			<true/>
+			<key>segmentCount</key>
+			<real>9</real>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Bookmarks</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.safariwallpaperpreferences</string>
+			<key>key</key>
+			<string>hideBookmarks</string>
+			<key>label</key>
+			<string>Hide bookmarks</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.safariwallpaperpreferences</string>
+			<key>key</key>
+			<string>hideBookmarkHeaders</string>
+			<key>label</key>
+			<string>Hide bookmark headers</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.safariwallpaperpreferences</string>
+			<key>key</key>
+			<string>hideBookmarkTitles</string>
+			<key>label</key>
+			<string>Hide bookmark titles</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.safariwallpaperpreferences</string>
+			<key>key</key>
+			<string>useDynamicLabelColor</string>
+			<key>label</key>
+			<string>Dynamic label color</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.safariwallpaperpreferences</string>
+			<key>key</key>
+			<string>useCustomLabelColor</string>
+			<key>label</key>
+			<string>Custom label color</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>GcColorPickerCell</string>
+			<key>label</key>
+			<string>Custom color</string>
+			<key>defaults</key>
+			<string>love.litten.safariwallpaperpreferences</string>
+			<key>key</key>
+			<string>customLabelColor</string>
+			<key>supportsAlpha</key>
+			<false/>
+			<key>fallback</key>
+			<string>000000</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Miscellaneous</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.safariwallpaperpreferences</string>
+			<key>key</key>
+			<string>automaticFocusOnBlankTab</string>
+			<key>label</key>
+			<string>Automatic url bar focus</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Other options</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Reset preferences</string>
+			<key>action</key>
+			<string>resetPrompt</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Contributions</string>
+		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Contributors</string>
+ 			<key>detail</key>
+ 			<string>SAWContributorsSubPreferencesListController</string>
+ 			<key>SAWSub</key>
+ 			<string>sub/contributors</string>
+ 		</dict>
+
+		 <dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>You might like:</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Crystal</string>
+			<key>subtitle</key>
+			<string>Headphone listening mode automations</string>
+			<key>icon</key>
+			<string>featured/Crystal.png</string>
+			<key>url</key>
+			<string>https://repo.litten.love/depictions/Crystal/</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Déjà Vu</string>
+			<key>subtitle</key>
+			<string>Fully featured always on display</string>
+			<key>icon</key>
+			<string>featured/DéjàVu.png</string>
+			<key>url</key>
+			<string>https://repo.litten.love/depictions/DejaVu/</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>SafariWallpaper by Litten, icon and banner by taki</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Discord</string>
+			<key>subtitle</key>
+			<string>Chat with us 👾</string>
+			<key>url</key>
+			<string>https://discord.gg/tKUPZrS7ve</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Source code</string>
+			<key>subtitle</key>
+			<string>GitHub 🌇</string>
+			<key>url</key>
+			<string>https://github.com/schneelittchen/SafariWallpaper</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Donate to Litten</string>
+			<key>subtitle</key>
+			<string>Appreciated 💝</string>
+			<key>url</key>
+			<string>https://paypal.me/Litteeen</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<key>PSGroupCell</key>
+			<key>footerText</key>
+			<string>wishing on a star</string>
+			<key>isStaticText</key>
+			<true/>
+			<key>footerAlignment</key>
+			<real>1</real>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>SafariWallpaper</string>
+</dict>
+</plist>

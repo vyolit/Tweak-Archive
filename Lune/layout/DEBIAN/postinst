@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo ""
+echo "   _.._     "
+echo "  .' .-'    "
+echo " /  /       "
+echo " |  |       "
+echo " \  '.___.; "
+echo "  '._  _.'  "
+echo ""
+echo "Thank You For Installing Lune 1.5.1 🤗"
+echo ""

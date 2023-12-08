@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+        <dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Activate Lisa..</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>onlyWhenDNDIsActive</string>
+			<key>label</key>
+			<string>Only While DND Is Active</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>whenNotificationArrives</string>
+			<key>label</key>
+			<string>When Notification Arrives</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>alwaysWhenNotificationsArePresented</string>
+			<key>label</key>
+			<string>Always When Notifications Are Presented</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>whenPlayingMusic</string>
+			<key>label</key>
+			<string>When Playing Music</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>onlyWhileCharging</string>
+			<key>label</key>
+			<string>Only While Charging</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Visibility</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>hideStatusBar</string>
+			<key>label</key>
+			<string>Hide Status Bar</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>hideControlCenterIndicator</string>
+			<key>label</key>
+			<string>Hide Control Center Indicator</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>hideFaceIDLock</string>
+			<key>label</key>
+			<string>Hide FaceID Lock</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>hideTimeAndDate</string>
+			<key>label</key>
+			<string>Hide Time And Date</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>hideQuickActions</string>
+			<key>label</key>
+			<string>Hide Quick Actions</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>hideUnlockText</string>
+			<key>label</key>
+			<string>Hide Unlock Text</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>hideHomebar</string>
+			<key>label</key>
+			<string>Hide Homebar</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>hidePageDots</string>
+			<key>label</key>
+			<string>Hide Page Dots</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Other Tweak Visibility</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>hideComplications</string>
+			<key>label</key>
+			<string>Hide Complications</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>hideKai</string>
+			<key>label</key>
+			<string>Hide Kai</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>hideAperio</string>
+			<key>label</key>
+			<string>Hide Aperio</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>hideLibellum</string>
+			<key>label</key>
+			<string>Hide Libellum</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>hideVeza</string>
+			<key>label</key>
+			<string>Hide Veza</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>hideAxon</string>
+			<key>label</key>
+			<string>Hide Axon</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Accessibility</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>disableTodaySwipe</string>
+			<key>label</key>
+			<string>Disable Today Swipe</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>disableCameraSwipe</string>
+			<key>label</key>
+			<string>Disable Camera Swipe</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Miscellaneous</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>blurredBackground</string>
+			<key>label</key>
+			<string>Enable Blurred Background</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>tapToDismissLisa</string>
+			<key>label</key>
+			<string>Tap To Dismiss Lisa</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>label</key>
+			<string>Background Alpha</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>1.0</real>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>backgroundAlpha</string>
+			<key>min</key>
+			<real>0.0</real>
+			<key>max</key>
+			<real>1.0</real>
+			<key>showValue</key>
+			<true/>
+			<key>isSegmented</key>
+			<true/>
+			<key>segmentCount</key>
+			<real>10</real>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>label</key>
+			<string>Notification style while lisa is active</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
+			<string>notificationStyle</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Default</string>
+				<string>Light</string>
+				<string>Dark</string>
+			</array>
+			<key>alignment</key>
+			<string>3</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Lisa</string>
+</dict>
+</plist>

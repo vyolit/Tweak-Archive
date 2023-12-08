@@ -1,0 +1,89 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1//EN" "http://www.apple.com/DTDs/PropertyList-1.dtd">
+<plist version="1">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Formatting</string>
+			<key>footerText</key>
+			<string>For a 12 hour clock use 'hh:mm'.</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string>HH:mm</string>
+			<key>placeholder</key>
+			<string>HH:mm</string>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>label</key>
+			<string>Time Format:</string>
+			<key>key</key>
+			<string>timeFormat</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string>EEEE d. MMMM</string>
+			<key>placeholder</key>
+			<string>EEEE d. MMMM</string>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>label</key>
+			<string>Date Format:</string>
+			<key>key</key>
+			<string>dateFormat</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Locale</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string></string>
+			<key>placeholder</key>
+			<string>en_US</string>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>label</key>
+			<string>Date Locale:</string>
+			<key>key</key>
+			<string>dateLocale</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Weather</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>auraoflove.pompompreferences</string>
+			<key>key</key>
+			<string>displayWeather</string>
+			<key>label</key>
+			<string>Display a Weather Icon</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>PomPom</string>
+</dict>
+</plist>

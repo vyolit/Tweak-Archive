@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Disable Feedback When..</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.rosepreferences</string>
+			<key>key</key>
+			<string>lowPowerMode</string>
+			<key>label</key>
+			<string>Low Power Mode Is On</string>
+			<key>PostNotification</key>
+			<string>love.litten.rosepreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.rosepreferences</string>
+			<key>key</key>
+			<string>isDNDActive</string>
+			<key>label</key>
+			<string>DND Is On</string>
+			<key>PostNotification</key>
+			<string>love.litten.rosepreferences/ReloadPrefs</string>
+		</dict>
+
+		 <dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Only Enable Feedback When..</string>
+		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSSwitchCell</string>
+ 			<key>default</key>
+ 			<false/>
+ 			<key>defaults</key>
+ 			<string>love.litten.rosepreferences</string>
+ 			<key>key</key>
+ 			<string>isRingerSilent</string>
+ 			<key>label</key>
+ 			<string>Ringer Is Silent</string>
+ 			<key>PostNotification</key>
+ 			<string>love.litten.rosepreferences/ReloadPrefs</string>
+ 		</dict>
+
+		 <dict>
+			<key>cell</key>
+			<key>PSGroupCell</key>
+			<key>princess of daydreamingText</key>
+			<string>Exceptions May Not Work With Keyboard Feedback</string>
+			<key>isStaticText</key>
+			<true/>
+			<key>princess of daydreamingAlignment</key>
+			<real>1</real>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Rose</string>
+</dict>
+</plist>
